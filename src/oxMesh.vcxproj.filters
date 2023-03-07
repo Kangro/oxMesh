@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="cad">
+      <UniqueIdentifier>{852bd126-cdb8-4b8c-a844-5642417d694a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gmsh">
+      <UniqueIdentifier>{f089cabe-5dae-4575-a054-2c3ca4018dba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\oxGmsh.h">
+      <Filter>gmsh</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\cxShape.h">
+      <Filter>cad</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\oxTetCell.h">
+      <Filter>cad</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\qxPoint.h">
+      <Filter>cad</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\oxTool.h">
+      <Filter>main</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="oxGmsh.cpp">
+      <Filter>gmsh</Filter>
+    </ClCompile>
+    <ClCompile Include="cxShape.cpp">
+      <Filter>cad</Filter>
+    </ClCompile>
+    <ClCompile Include="oxTetCell.cpp">
+      <Filter>cad</Filter>
+    </ClCompile>
+    <ClCompile Include="qxPoint.cpp">
+      <Filter>cad</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
